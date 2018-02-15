@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thimble Project Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="https://thimble.mozilla.org/tutorial/tutorial.css">
+  </head>
+
+  <body>
+    <div class="tutorial">
+      <h1>Using <code>addEventListener()</code></h1>
+      <h2>Goal</h2>
+      <p>
+        Create a button and connect it to an event handler. Clicking the button will write 'You clicked me' to the page.
+      </p>
+      <h3>Rules</h3>
+      <ul>
+        <li>Use only HTML, CSS &amp; JavaScript. Do not use jQuery.</li>
+        <li>The event handler must be connected in JavaScript. Do not use <code>onClick=""</code> in HTML</li>
+      </ul>
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById">getElementById() (MDN)</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Talk:DOM/element.addEventListener">addEventListener() (MDN)</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild">appendChild() (MDN)</a></li>
+        <li><a href="https://getbootstrap.com/docs/3.3/css/">Bootstrap 3.3/CSS</a></li>
+      </ul>
+
+      <h3>Instructions</h3>
+      <ol class="steps">
+        <li>
+          Inside of the div with class 'wrapper', create the 'Click Me' button with the bootstrap button classes that will make it green.
+        </li>
+        <li>
+          Write a function named <code>main()</code> that attaches an event listener to the button. Have the event listener call a function named <code>buttonClicked()</code>.
+        </li>
+        <li>
+          Write the <code>buttonClicked()</code> function to write "You clicked me" to the body of the page each time the button is clicked, without overwriting the result of previous clicks.
+        </li>
+        <li>
+          Make sure your <code>Main()</code> function is called when your script file loads.
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>

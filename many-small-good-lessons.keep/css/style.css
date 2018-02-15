@@ -1,0 +1,145 @@
+body {
+  /*background-color: darkgray;*/
+  background-color: rgb(244, 244, 244);
+
+
+}
+
+#body-main {
+  float:left;
+  width: 80%;
+  position: absolute;
+  height: 100%
+}
+
+#debug-sidebar {
+  float:right;
+  height: 100%;
+  position:absolute;
+  width: 20%;
+  color: #ffcc00;
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+
+
+}
+
+/*
+.main {
+  margin-top: 70px;
+  background-size: cover;
+  max-width: 750px;
+}
+
+.navbar-container {
+  max-width: 750px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.small-text {
+  font-size: 1.1em;
+}
+
+.button-active {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.button-active:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.button-active:focus {
+  color: #fff;
+}
+
+.button-inactive {
+  color: #2a2a2a;
+  background-color: #6c7b88;
+  border-color: #6c7680;
+}
+.button-inactive:hover {
+  color: #fff;
+  background-color: #5e6b77;
+  border-color: #6c7680;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+.result-title {
+  font-size: 1.5em;
+}
+
+.btn-searchbar {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+*/
+/*
+ * Styles from http://getbootstrap.com.vn/examples/equal-height-columns/
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+/* ** END ******************************************* */
+
+h4 {
+  margin-top: 25px;
+}
+.border-red {
+  border: 3px solid red;
+}
+.border-blue {
+  border: 2px solid blue;
+}
+.border-green {
+  border: 3px solid green;
+}
+.border-orange {
+  border: 3px solid orange;
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/*
+#wrapper.toggled {
+    padding-left: 250px;
+}
+*/
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    right: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

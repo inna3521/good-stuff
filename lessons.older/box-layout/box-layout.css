@@ -1,0 +1,88 @@
+body, html {
+  height: 100%
+}
+
+body {
+  margin: 0;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.content-wrapper {
+  background: green;
+  margin: auto;
+  width: 80%;
+  height: 100%;
+}
+
+.banner {
+  background: yellow;
+  width: 100%;
+  height: 20%;
+}
+
+.bio {
+  background: red;
+  width: 100%;
+  height: 35%
+}
+
+.about {
+  background: orange;
+  width: 100%;
+  height: 35%;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.about-inner-wrapper {
+  background: green;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.about-row {
+  background: pink;
+  width: 100%;
+  height: 100%;
+  padding: 10px !important;
+}
+
+.before-pres {
+  background: lightgray;
+  width: 30%;
+  display: inline-block;
+  height: 80%
+}
+
+.while-pres {
+  margin-left: 5%;
+  background: blue;
+  width: 30%;
+  display: inline-block;
+  height: 80%;
+}
+
+/*
+.before-pres {
+  float: left;
+  background: lightgray;
+  width: 30%;
+}
+
+.while-pres {
+  background: green;
+  width: 30%;
+  overflow: hidden;
+}
+*/
+
+footer {
+  background: blue;
+  width: 100%;
+  height: 10%;
+}

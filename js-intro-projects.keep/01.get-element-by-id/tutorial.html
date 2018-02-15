@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>getElementById</title>
+    <link rel="stylesheet" type="text/css" href="https://thimble.mozilla.org/tutorial/tutorial.css">
+    <link rel="stylesheet" href="../prism/prism.css">
+  </head>
+
+  <body>
+    <div class="tutorial">
+      <h1>Using <code>getElementById()</code></h1>
+      <h3>Goal</h3>
+      <p>Use <code>getElementById()</code> to get a reference to elements on the page and demonstrate that the reference works by changing the element's style.</p>
+      <h3>Rules</h3>
+      <ol>
+        <li>Use only HTML, CSS &amp; JavaScript. Do not use jQuery.</li>
+      </ol>
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function">Function (MDN)</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById">getElementById() (MDN)</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style">HTMLElement.style (MDN)</a></li>
+      </ul>
+
+
+      <h3>Instructions</h3>
+      <ol class="steps">
+        <li>
+          Inside the div with class 'wrapper', create a div with id of 'div1' and put the text '#div1' inside it.
+        </li>
+        <li>
+          Below #div1, create a div with id of 'div2' and put the text '#div2' inside it.
+        </li>
+        <li>
+          Create a function named <code>main()</code> that takes one parameter, the name of a div. Have the body of <code>main()</code> get a reference to the div per the passed-in parameter and set its background color to 'red'.
+        </li>
+        <li>
+          Call <code>main()</code> from within you script.js file. There is no need to create UI for this exercise other than the two divs.
+        </li>
+        <li>
+          Calling <code>main()</code> while passing 'div1' should make #div1 red and calling <code>main()</code> while passing 'div2' should make #div2 red.
+        </li>
+      </ol>
+      <h3>Hint</h3>
+      <p><code>main()</code> signature and calling it</p>
+      <pre class="language-js"><code>
+      // Create the function
+      function main(divName)
+        // function body
+      }
+
+      // Call the function
+      main('div1')
+    </code></pre>
+    </div>
+    <script src="../prism/prism.js"></script>
+  </body>
+</html>

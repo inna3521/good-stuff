@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stop Light</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="prism/prism.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Conditional Flow Control (if) Stop Light</h1>
+    </header>
+    <div class="wrapper">
+      <h2>Let's make a stop light with an 'if' statement</h2>
+      <div class="light-control">
+        <button id="btn-red" value="red" class="btn btn-danger">Red</button>
+        <button id="btn-yellow" value="yellow" class="btn btn-warning">Yellow</button>
+        <button id="btn-green" value="green" class="btn btn-success">Green</button>
+      </div>
+      <div class="stoplight">
+        <img src="images/stoplight.png" />
+        <img id="top" name="red" src="images/red-off.svg" />
+        <img id="middle" src="images/yellow-off.svg" />
+        <img id="bottom" src="images/green-on.svg" />
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="prism/prism.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

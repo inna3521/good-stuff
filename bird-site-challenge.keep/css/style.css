@@ -1,0 +1,163 @@
+body {
+  background: rgb(40, 40, 40);
+  color: white;
+  padding: 5% 10%;
+}
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.container {
+  width: auto;
+}
+.green-text {
+  color: #34E97C;
+}
+.header-title {
+  margin-top: 0;
+}
+.header-image {
+  max-width: 440px;
+}
+.heading-tags {
+  clear: both;
+  float: left;
+}
+.sudo-h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: aqua;
+}
+
+.sudo-h2 {
+  font-size: 12px;
+  line-height: 1.1;
+  color: aqua;
+}
+
+.image-image {
+  max-width: 50px;
+}
+
+.video-tag {
+  vertical-align: text-top;
+}
+
+.mdn-contributors {
+  color: aqua;
+}
+
+
+.html-element {
+  max-width: 600px;
+}
+
+.mdn-contributors {
+  color: aqua;
+}
+
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
+.large-text {
+  font-size: 17px;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.sample-page {
+  padding: 10px 15px 10px 15px
+}
+
+
+/* Callout styles */
+.ke-callout {
+  padding: 20px;
+  margin: 20px 0;
+  /*border: 1px solid #eee;*/
+  border: 0.5px solid gray;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #999999;
+  background-color: transparent;
+}
+
+.ke-callout p:last-child {
+  margin-bottom: 0;
+}
+.ke-callout code {
+  border-radius: 3px;
+}
+
+/* Tighten up space between multiple callouts */
+.ke-callout + .ke-callout {
+  margin-top: -5px;
+}
+
+/* Variations */
+.ke-callout-danger {
+  border-left-color: #ce4844;
+  /*background-color: white;*/
+}
+
+.ke-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.ke-callout h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.ke-callout-danger h4 {
+  color: #ce4844;
+}
+
+.ke-callout-warning {
+  border-left-color: #ffe202;
+  /*background-color: white;*/
+}
+.ke-callout-warning h4 {
+  /*color: #aa6708;*/
+  color: #ffe202;
+}
+.ke-callout-warning h3 {
+  color: #aa6708;
+}
+.ke-callout-info {
+  border-left-color: #1b809e;
+  /*background-color: white;*/
+}
+.ke-callout-info h4 {
+  color: #1b809e;
+}
+
+.ke-callout-goal {
+  border-left-color: #008000;
+  /*background-color: white;*/
+}
+
+.ke-callout-goal h4 {
+  color: #008000;
+}
+
+.lesson-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.large-cap {
+  font-weight: bold;
+  font-size: 1.3em;
+}
